@@ -19,16 +19,23 @@ function App() {
 
       {/* Hero Section */}
       <section className="hero" id="about">
-        <h1>Software Engineering Student & Full-Stack Developer</h1>
-        <p>
-          Software Engineering student at Brigham Young University-Idaho, graduating in December 2027 with a
-          full-stack development emphasis. I build practical web applications, self-hosted services, and cloud
-          deployments with a focus on clear, reliable user experiences.
-        </p>
-        <div className="hero-buttons">
-          <a href="#projects" className="btn primary">View Projects</a>
-          <a href="https://github.com/Joshwalks7" target="_blank" rel="noopener noreferrer" className="btn secondary">GitHub</a>
-          <a href="https://www.linkedin.com/in/jwalker-swe/" target="_blank" rel="noopener noreferrer" className="btn secondary">LinkedIn</a>
+        <div className="hero-content">
+          <div className="hero-copy">
+            <h1>Software Engineering Student & Full-Stack Developer</h1>
+            <p>
+              Software Engineering student at Brigham Young University-Idaho, graduating in December 2027 with a
+              full-stack development emphasis. I build practical web applications, self-hosted services, and cloud
+              deployments with a focus on clear, reliable user experiences.
+            </p>
+            <div className="hero-buttons">
+              <a href="#projects" className="btn primary">View Projects</a>
+              <a href="https://github.com/Joshwalks7" target="_blank" rel="noopener noreferrer" className="btn secondary">GitHub</a>
+              <a href="https://www.linkedin.com/in/jwalker-swe/" target="_blank" rel="noopener noreferrer" className="btn secondary">LinkedIn</a>
+            </div>
+          </div>
+          <div className="hero-profile">
+            <img src="/project-images/profile-pic.webp" alt="Joshua Walker" />
+          </div>
         </div>
       </section>
 
@@ -72,16 +79,16 @@ function App() {
         <h2>Technical Skills</h2>
         <div className="skills-grid">
           <div className="skill-category">
-            <h3>Frontend</h3>
-            <p>JavaScript, React, HTML, CSS, Vite</p>
+            <h3>Languages</h3>
+            <p>JavaScript, Python, C#, C++, HTML, CSS</p>
           </div>
           <div className="skill-category">
-            <h3>Backend & Database</h3>
-            <p>Python, C++, C#, Node.js, Express.js, SQLite, MySQL</p>
+            <h3>Backend & Systems</h3>
+            <p>Node.js, Express.js, React, SQLite, MySQL</p>
           </div>
           <div className="skill-category">
             <h3>Tools & Certifications</h3>
-            <p>Git/GitHub, AWS Certified Cloud Practitioner, Spanish</p>
+            <p>Vite, Git/GitHub, AWS Certified Cloud Practitioner, Spanish</p>
           </div>
         </div>
       </section>
